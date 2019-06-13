@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Quicksand_Book";
+  src: url(fonts/Quicksand_Book.otf);
+}
+@font-face {
+  font-family: "Quicksand_Bold";
+  src: url(fonts/Quicksand_Bold.otf);
+}
+
+html body{
+  background: linear-gradient(#d8dee9, #4c566a) no-repeat center center fixed;
+  background-size: cover;
+}
+
+html body {
+  font-family: "Quicksand_Book", sans-serif;
+}
+
+html body nav a, html body h1, html body h2, html body h3 {
+  font-family: "Quicksand_Bold", sans-serif;
+}
+
+/* Navbar */
+a img {
+  vertical-align: top;
+  height: 2.4rem;
+  outline: none;
+}
+.navbar-nav a {
+  font-family: "Quicksand_Book", sans-serif;
+}
+
+html body a:active, a img, img {
+  outline: none;
+}
+.container .jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 0;
+}
+.container .mainContent {
+  padding: 0 1rem;
+}
+thead {
+  border-bottom: 1px solid #f8f9fa;
+}
+
+td:nth-of-type(odd) {
+  width: 220px;
+}
+
+footer .footerBy a {
+  text-decoration: underline;
+  color: #f8f9fa;
+  font-family: "Quicksand_Bold";
+  letter-spacing: 0.1rem;
+}
+footer .footerBy a:hover {
+  color: #d8dde2;
+}
+footer .footerBy img {
+  vertical-align: top;
+  height: 1.7rem;
+  padding-right: 0.5rem;
+}
