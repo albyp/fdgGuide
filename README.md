@@ -1,2 +1,2 @@
 # fdgGuide
-https://github.io/albyp/fdgGuide
+https://albyp.github.io/fdgGuide/
