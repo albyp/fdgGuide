@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="src/style.css">
+  <link rel="shortcut icon" href="src/index.ico">
+  <title>LSLA - Automation</title>
+</head>
+<body>
+  <div class="container bg-dark text-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+      <a class="navbar-brand" href="index.html"><img src="src/fdg.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="controls.html">Controls</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Automation</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <div class="jumbotron bg-dark text-light">
+      <h1 class="">Automation</h1>
+      <hr class="my-2 border-light">
+      <p class="lead">Here at Los Santos Life Australia, we have a lot of different jobs to offer. Some of which, can be AFK'able in a sense.<br>For instance, Fishing, Lumbering, Fueling and Tailoring typically have 3-4 steps invloved, from collection, to finishing touches to selling.<br>These can be completed in an AFK'able method where a macro can be activated and can then complete the steps with minimal human requirements.</p>
+    </div>
+
+    <div class="mainContent pb-1">
+      <h3>Principles of macros</h3>
+      <p>Macros work by completing a series of keypresses with timings between them in order to be used to essenetially complete a task automatically or easier.<br>Macros <strong>will not</strong> work with recording mouse movements (only clicks). Therefore it's better to find out how to complete the task using keyboard only. Scripts would have to be used in order to complete tasks where mouse movements or entering specific fields are required (which is a lot more likely to get you banned).<br><br>Unfortunately, without scripts, we're unable to leave the GTA window, so you can't use your computer while this method is being utilised.
+      If set up correctly, the only thing you'll need to return to complete, is relocating one each step has been complete - to go to the next location. Each step will likely require a different macro.</p>
+      <h3>Setting up a macro</h3>
+      <p>First of all, make sure you have a device that can utilise macros, if not, you may require installing AutoHotKey (AHK) and assign the macro to a series of keypresses.<br>Most hardware (mouse/keyboard) software are quite similar, however they do range in their functions. Software like Razer Synapse, Steelseries Engine and Corsair iCUE etc. all allow you to create macros and some even have the functionality of recording them on the fly.<br><br>Run through the first task you want to automate (collection) and take notes on what keys are pressed along with the (rough) time between them. Don't worry if you miss something, it can be added later.<br></p>
+      <table class="table table-sm table-dark table-hover table-striped table-borderless">
+        <thead class="thead-dark">
+          <th scope="col">Step</th>
+          <th scope="col">Action</th>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Record the keys inside your software</td></tr>
+          <tr><td>2</td><td>Edit timings, assign the macro to a key and test in-game</td></tr>
+          <tr><td>3</td><td>Make notes on how the macro is responding, you should be able to relate the keypresses to your notes</td></tr>
+          <tr><td>4</td><td>Final touches to macro</td></tr>
+          <tr><td>5</td><td>Set up recurring macro</td></tr>
+        </tbody>
+      </table>
+      <p>Repeat this process for all other tasks (that can be automated) and assign to keys.</p>
+    </div>
+
+    <div class="macroDisclaimer">
+      <h3>Disclaimer</h3>
+      <p><span class="macroNote">Note: </span>Using macros on some servers, including FDG - LSLA is extremely frowned upon by admin and other players as it automates the "grinding" aspect of the game which all players go through (unless handicaps or macros and alike have been used).<br>I am not responsible for your use of macros and/or other external advantages used in-game.</p>
+    </div>
+
+
+    <footer>
+      <div class="footerBy py-3">
+        <span>Created by <a class="dev" href="https://github.com/albyp/"><img "alby" src="src/gh.png">albyp</a></span>
+        <span class="footerRight"><a href="https://github.com/albyp/"><img src="src/index.ico">FatDuckGaming • Home</a></span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
