@@ -16,7 +16,7 @@ html body {
   font-family: "Quicksand_Book", sans-serif;
 }
 
-html body nav a, html body h1, html body h2, html body h3 {
+html body nav a, html body h1, html body h2, html body h3, html body h4 {
   font-family: "Quicksand_Bold", sans-serif;
 }
 
@@ -37,25 +37,34 @@ html body a:active, a img, img {
   padding: 2rem 1rem;
   margin-bottom: 0;
 }
-.container .mainContent {
+.mainContent {
   padding: 0 1rem;
 }
 thead {
   border-bottom: 1px solid #f8f9fa;
 }
-
+span.macroNote {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 td:nth-of-type(odd) {
   width: 220px;
 }
 
-footer .footerBy a {
+footer .footerBy a.dev {
   text-decoration: underline;
   color: #f8f9fa;
   font-family: "Quicksand_Bold";
   letter-spacing: 0.1rem;
 }
+footer .footerBy a {
+  color: #f8f9fa;
+}
 footer .footerBy a:hover {
   color: #d8dde2;
+}
+footer .footerRight {
+  float: right;
 }
 footer .footerBy img {
   vertical-align: top;
